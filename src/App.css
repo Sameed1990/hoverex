@@ -555,7 +555,7 @@ ul.sublist>li>a {
 /* Bonus  */
 .main-bonus {
   padding: 0px 85px;
-  margin-top: -400px;
+  /* margin-top: -400px; */
 }
 
 h1.b {
@@ -1012,6 +1012,8 @@ footer {
   .main-what {
     background: #050510 !important;
     justify-content: center;
+    padding-top: 430px;
+    padding-bottom: inherit !important; 
   }
 
   .submain-what {
@@ -1068,6 +1070,10 @@ footer {
 
 .back-white-circle {
     right: -35px;
+}
+.main-what{
+  padding-left: inherit !important;
+  padding-right: inherit !important;
 }
 }
 
