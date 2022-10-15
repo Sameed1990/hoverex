@@ -849,12 +849,13 @@ footer {
   color: white;
   border-radius: 25px;
   border: none;
+  outline: none;
 }
 
 .footer-btn>button {
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(1, 123, 253, 1)), color-stop(100%, #20bfe1));
   border: none;
-  padding: 10px 40px;
+  padding: 11px 40px;
   border-radius: 30px;
   color: white;
   font-weight: 700;
@@ -1170,7 +1171,7 @@ footer {
   }
 
   .input>input[type="email"] {
-    padding: 10px 20px;
+    padding: 10px 100px 10px 30px;
   }
 
   .footer-btn>button {
