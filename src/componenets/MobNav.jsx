@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSolid, faBars } from '@fortawesome/fontawesome-free-solid'
 import icon from '../img/down-chevron.png'
 import close from '../img/close (1).png'
-
+import English from '../img/united-kingdom.png'
+import Spain from '../img/spain.png'
 
 
 export default function MobNav() {
@@ -110,6 +111,33 @@ export default function MobNav() {
         
 
     }
+
+    const [lang, setLang] = useState({
+        language : 'English',
+        Flag1: English
+      });
+    
+      // const English = () => {
+      //   // setLang({
+      //   //   language : 'English',
+      //   //   Flag1: English
+      //   // })
+      //   console.log("ok");
+      // }
+      const Eng = () => {
+        setLang({
+          language : 'English',
+          Flag1: English
+        })
+    
+      }
+      const Spanish = () => {
+        setLang({
+          language : 'Spanish',
+          Flag1: Spain
+        })
+    
+      }
    
     return (
         <>
@@ -117,22 +145,21 @@ export default function MobNav() {
                 <div className="nav-logo">
                     <img src={logo} alt="" />
                 </div>
-                <div className="lang-main">
-                    <ul className=" main-ul   lan-ul">
-                        <li><a href="#" id='List3'> English </a>
-                            <ul className="sublist list3">
-                                <li><a href="#"> Home </a></li>
-                                <li><a href="#"> Home </a></li>
-                            </ul>
-
-                        </li>
-                    </ul>
-                </div>
+     
                 <div className="toggle-btn" >
                     <a href="#" onClick={Open}>
                         <FontAwesomeIcon icon={faBars} style={MyStyle} />
                     </a>
                 </div>
+
+                <div class="w3-dropdown-hover ">
+      <button class="w3-button"> {lang.language} <img src={lang.Flag1} className='flag' alt="" /> <i class="fa fa-caret-down"></i> </button>
+      <div class="w3-dropdown-content w3-bar-block w3-cus">
+        <a href="#" class="w3-bar-item w3-button lang" onClick={Eng}>English <img src={English} className='flag' alt="" /> </a>
+        <a href="#" class="w3-bar-item w3-button lang" onClick={Spanish}>Spanish <img src={Spain} className='flag' alt="" /> </a>
+
+      </div>  
+      </div>
 
                 <div className="ul" id='drop'>
                     <div className="close-icon">

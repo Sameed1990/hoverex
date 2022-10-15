@@ -17,8 +17,8 @@ export default function Team() {
             </div>
             <div className="main-team"data-aos="fade-up">
                 <div className="submain-team">
-                    <div className="back-white-circle"></div>
                     <div className='yugu6t57'>
+                    <div className="back-white-circle"></div>
                         <div className="team-img">
                             <img src={team1} alt="" />
                         </div>
@@ -31,8 +31,8 @@ export default function Team() {
                     </div>
                 </div>
                 <div className="submain-team">
-                    <div className="back-white-circle"></div>
                     <div className='yugu6t57'>
+                    <div className="back-white-circle"></div>
                         <div className="team-img">
                             <img src={team2} alt="" />
                         </div>
@@ -45,8 +45,8 @@ export default function Team() {
                     </div>
                 </div>
                 <div className="submain-team">
-                    <div className="back-white-circle"></div>
                     <div className='yugu6t57'>
+                    <div className="back-white-circle"></div>
                         <div className="team-img">
                             <img src={team3} alt="" />
                         </div>
@@ -59,8 +59,8 @@ export default function Team() {
                     </div>
                 </div>
                 <div className="submain-team">
-                    <div className="back-white-circle"></div>
                     <div className='yugu6t57'>
+                    <div className="back-white-circle"></div>
                         <div className="team-img">
                             <img src={team4} alt="" />
                         </div>
